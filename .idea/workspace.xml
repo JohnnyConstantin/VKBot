@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,26 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.func.vkbot.Main" />
+      <module name="botJC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.func.vkbot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -67,7 +87,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587331027252</updated>
-      <workItem from="1587331038478" duration="2073000" />
+      <workItem from="1587331038478" duration="2298000" />
+      <workItem from="1587333674405" duration="2667000" />
     </task>
     <servers />
   </component>
@@ -84,20 +105,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="207" y="23" key="#Project_Structure" timestamp="1587333429266">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="207" y="23" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1587333429266" />
-    <state x="173" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587331451163">
+    <state x="173" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587334079066">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="173" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1587331451163" />
-    <state x="200" y="38" key="SettingsEditor" timestamp="1587332194389">
+    <state x="173" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1587334079066" />
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1587333801792">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="200" y="38" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587332194389" />
+    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587333801791" />
+    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1587333801791">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587333801791" />
+    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1587333801787">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587333801787" />
+    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1587333801791">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587333801791" />
+    <state x="200" y="38" key="SettingsEditor" timestamp="1587333843783">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="200" y="38" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587333843783" />
     <state x="441" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587331804510">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
