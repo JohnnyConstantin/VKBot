@@ -20,12 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/ApiKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Weather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,7 +59,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
@@ -90,6 +98,9 @@
       <workItem from="1587333674405" duration="2667000" />
       <workItem from="1587337390607" duration="8890000" />
       <workItem from="1587366472111" duration="504000" />
+      <workItem from="1587386725982" duration="6102000" />
+      <workItem from="1587401133605" duration="3503000" />
+      <workItem from="1587404811104" duration="8860000" />
     </task>
     <servers />
   </component>
@@ -109,6 +120,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="497" y="188" key="#HTTP_Proxy" timestamp="1587404294092">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="497" y="188" key="#HTTP_Proxy/0.23.1440.877@0.23.1440.877" timestamp="1587404294092" />
     <state x="207" y="23" key="#Project_Structure" timestamp="1587333429266">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -121,30 +136,34 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="532" y="155" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587341304118" />
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1587369861817">
+    <state x="456" y="198" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1587413946001">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587369861817" />
-    <state width="1358" height="217" key="GridCell.Tab.0.center" timestamp="1587369861811">
+    <state x="456" y="198" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.877@0.23.1440.877" timestamp="1587413946001" />
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom" timestamp="1587414732892">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587369861811" />
-    <state width="1358" height="217" key="GridCell.Tab.0.left" timestamp="1587369861810">
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587414732892" />
+    <state width="1358" height="213" key="GridCell.Tab.0.center" timestamp="1587414732889">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587369861810" />
-    <state width="1358" height="217" key="GridCell.Tab.0.right" timestamp="1587369861816">
+    <state width="1358" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587414732889" />
+    <state width="1358" height="213" key="GridCell.Tab.0.left" timestamp="1587414732888">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="217" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587369861816" />
-    <state x="257" y="103" key="Maven.ArtifactSearchDialog" timestamp="1587338077029">
+    <state width="1358" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587414732888" />
+    <state width="1358" height="213" key="GridCell.Tab.0.right" timestamp="1587414732890">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="257" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1587338077029" />
-    <state x="200" y="38" key="SettingsEditor" timestamp="1587333843783">
+    <state width="1358" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587414732890" />
+    <state x="257" y="103" key="Maven.ArtifactSearchDialog" timestamp="1587404225938">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="200" y="38" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587333843783" />
+    <state x="257" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1587404225938" />
+    <state x="200" y="38" key="SettingsEditor" timestamp="1587397912929">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="200" y="38" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1587397912929" />
     <state x="441" y="344" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587331804510">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
