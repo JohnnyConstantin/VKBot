@@ -1,6 +1,7 @@
 package ru.func.vkbot;
 
 import com.petersamokhin.bots.sdk.clients.Group;
+import com.petersamokhin.bots.sdk.longpoll.LongPoll;
 import com.petersamokhin.bots.sdk.objects.Message;
 
 import java.util.Random;
@@ -16,15 +17,8 @@ public class Main {
 
         Group group = new Group(194437959, KEY);
 
-        /*group.onTyping(userId -> {
-            Message preAnswer = new Message()
-                    .from(group)
-                    .to(userId)
-                    .text("Здравствуйте, https://vk.com/id" + userId + ", рад Вас видеть!");
-            preAnswer.send();
-        });*/
 
-            group.onCommand("!weather", message -> {
+        group.onCommand("!weather", message -> {
             Weather weather = new Weather();
             System.out.println("Testing 1 - Send Http GET request");
             String result = null;
@@ -40,37 +34,6 @@ public class Main {
             wether.send();
         });
 
-      /*  CloseableHttpClient client = HttpClients.createDefault();
-        HttpGet get = new HttpGet(url);
-        HttpEntity entity;
-        CloseableHttpResponse reap;
-        try{
-            reap = client.execute(get);
-            entity = reap.getEntity();
-            System.out.println("Json response:\n");
-            System.out.println(EntityUtils.toString(entity));
-            String json = EntityUtils.toString(entity);
-            JsonParser parser = new JsonParser();
-            JsonObject mainObj = parser.parse(json).getAsJsonObject();
-            JSONObject jsonObject = new JSONObject(mainObj.toString());
-            String city = jsonObject.getString("name");
-            double temperature = jsonObject.getJSONObject("main").getDouble("temp")-273.15d;
-            double humidity = jsonObject.getJSONObject("main").getDouble("humidity");
-            String overcast = jsonObject.getJSONArray("weather").getJSONObject(0).getString("description");
-            System.out.println(city+ "\n");
-            System.out.println(temperature+ "\n");
-            System.out.println(humidity+ "\n");
-            System.out.println(overcast+ "\n");
-        }
-        catch (ClientProtocolException e) {
-            System.err.println("Something went wrong with weather: ");
-            e.printStackTrace();
-        }catch (IOException e) {
-            System.err.println("Unknown error: ");
-            e.printStackTrace();
-        }
-*/
-
         group.onCommand("!help", message -> {
             Message help = new Message()
                     .from(group)
@@ -81,6 +44,7 @@ public class Main {
                             "!weather\t Узнать погоду в текущем городе(Москва по умолчанию)\n" +
                             "!loh\t Узнать лох Вы или нет\n"
                             );
+            LongPoll poll = new LongPoll(group);
 
             help.send();
         });

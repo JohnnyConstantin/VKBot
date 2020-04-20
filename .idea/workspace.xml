@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/ApiKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Weather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/MessageHandler.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +63,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="commands" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.func.vkbot.Main" />
@@ -100,7 +104,9 @@
       <workItem from="1587366472111" duration="504000" />
       <workItem from="1587386725982" duration="6102000" />
       <workItem from="1587401133605" duration="3503000" />
-      <workItem from="1587404811104" duration="8860000" />
+      <workItem from="1587404811104" duration="9487000" />
+      <workItem from="1587415719204" duration="1338000" />
+      <workItem from="1587417231319" duration="419000" />
     </task>
     <servers />
   </component>
@@ -128,6 +134,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="207" y="23" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1587333429266" />
+    <state x="456" y="217" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587416844835">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="456" y="217" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1587416844835" />
     <state x="173" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587334079066">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -136,30 +146,34 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="532" y="155" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1587341304118" />
+    <state x="456" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587415894987">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="456" y="198" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1587415894987" />
     <state x="456" y="198" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1587413946001">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="456" y="198" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.877@0.23.1440.877" timestamp="1587413946001" />
-    <state width="1358" height="213" key="GridCell.Tab.0.bottom" timestamp="1587414732892">
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom" timestamp="1587415706044">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587414732892" />
-    <state width="1358" height="213" key="GridCell.Tab.0.center" timestamp="1587414732889">
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587415706044" />
+    <state width="1358" height="213" key="GridCell.Tab.0.center" timestamp="1587415706043">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587414732889" />
-    <state width="1358" height="213" key="GridCell.Tab.0.left" timestamp="1587414732888">
+    <state width="1358" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587415706043" />
+    <state width="1358" height="213" key="GridCell.Tab.0.left" timestamp="1587415706043">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587414732888" />
-    <state width="1358" height="213" key="GridCell.Tab.0.right" timestamp="1587414732890">
+    <state width="1358" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587415706043" />
+    <state width="1358" height="213" key="GridCell.Tab.0.right" timestamp="1587415706043">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587414732890" />
-    <state x="257" y="103" key="Maven.ArtifactSearchDialog" timestamp="1587404225938">
+    <state width="1358" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587415706043" />
+    <state x="257" y="103" key="Maven.ArtifactSearchDialog" timestamp="1587415677210">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="257" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1587404225938" />
+    <state x="257" y="103" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1587415677210" />
     <state x="200" y="38" key="SettingsEditor" timestamp="1587397912929">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
