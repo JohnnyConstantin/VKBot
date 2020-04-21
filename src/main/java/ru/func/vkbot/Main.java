@@ -5,7 +5,7 @@ import com.petersamokhin.bots.sdk.objects.Message;
 
 
 public class Main {
-    private static final String KEY = "3d073a95976f69f8a074679ece478de1a1f3aec5d75fdcd2a7c5e13f2d2be735fa50e592c01aa3b905c4f";
+    private static final String KEY = ApKey.getKEY();
     private static final String MyName = "VKbot";
 
     public static void main(String[] args) throws Exception {
