@@ -47,7 +47,7 @@ public class Weather {
 
     protected String res(String response) {
 
-        JSONObject jsonObject = new JSONObject(response.toString());
+        JSONObject jsonObject = new JSONObject(response);
             String city = jsonObject.getString("name");
             double temp = Math.round(jsonObject.getJSONObject("main").getDouble("temp") - 273.15);
             double humidity = jsonObject.getJSONObject("main").getDouble("humidity");
