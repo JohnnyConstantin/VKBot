@@ -13,7 +13,7 @@ public class Weather {
     // HTTP GET request
     protected String sendGet(String city) throws Exception {
 
-        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + ApiKey.getApiKey();
+        String url = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=" + ApKey.getApKey();
 
         URL obj = new URL(url);
         HttpURLConnection con = (HttpURLConnection) obj.openConnection();
