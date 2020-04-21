@@ -17,7 +17,7 @@ public class Main {
             String command = arg[1];
                         Weather weather = new Weather();
                          System.out.println("Testing 1 - Send Http GET request");
-                         String result = "Города " + command + "не существует";
+                         String result = "Города " + command + " не существует";
                              try {
                                      result = weather.res(weather.sendGet(command));
                                  } catch (Exception e) {
@@ -43,11 +43,23 @@ public class Main {
         });
 
         group.onCommand("!loh", message -> {
-            Message loh = new Message()
-                    .from(group)
-                    .to(message.authorId())
-                    .text("Ого! Да Вы, кажется, лох");
-            loh.send();
+            double a = Math.random()*2;
+            switch ((int) a) {
+                case(0) :
+                Message loh = new Message()
+                        .from(group)
+                        .to(message.authorId())
+                        .text("Ого! Да Вы, кажется, лох");
+                loh.send();
+                break;
+                case(1) :
+                    Message neloh = new Message()
+                            .from(group)
+                            .to(message.authorId())
+                            .text("Поздравляю! Вы не лох");
+                    neloh.send();
+                    break;
+            }
         });
 
         group.onStickerMessage( message -> {
