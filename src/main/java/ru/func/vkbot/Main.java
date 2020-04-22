@@ -35,10 +35,9 @@ public class Main {
             Message help = new Message()
                     .from(group)
                     .to(message.authorId())
-                    .text("Здравствуй! Рад тебя видеть!"
-                    );
+                    .text("Здравствуй! Рад тебя видеть!");
             help.send();
-        }, "Здарова","Здорово", "Здравствуй", "Здравствуйте",
+        }, "Здарова","Здорово", "Здравствуй",
                 "Привет", "Добрый день", "Доброе утро", "Добрый вечер", "Hello" );
 
         group.onCommand("!help", message -> {
