@@ -30,6 +30,17 @@ public class Main {
                              wether.send();
             });
 
+
+        group.onCommand( message -> {
+            Message help = new Message()
+                    .from(group)
+                    .to(message.authorId())
+                    .text("Здравствуй! Рад тебя видеть!"
+                    );
+            help.send();
+        }, "Здарова","Здорово", "Здравствуй", "Здравствуйте",
+                "Привет", "Добрый день", "Доброе утро", "Добрый вечер", "Hello" );
+
         group.onCommand("!help", message -> {
             Message help = new Message()
                     .from(group)
