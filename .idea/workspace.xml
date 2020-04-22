@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +103,7 @@
       <workItem from="1587415719204" duration="1338000" />
       <workItem from="1587417231319" duration="419000" />
       <workItem from="1587455321531" duration="1239000" />
-      <workItem from="1587474357916" duration="2747000" />
+      <workItem from="1587474357916" duration="2806000" />
     </task>
     <servers />
   </component>
@@ -154,22 +151,22 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="456" y="198" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1440.877@0.23.1440.877" timestamp="1587413946001" />
-    <state width="1358" height="213" key="GridCell.Tab.0.bottom" timestamp="1587577291915">
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom" timestamp="1587578113046">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587577291915" />
-    <state width="1358" height="213" key="GridCell.Tab.0.center" timestamp="1587577291912">
+    <state width="1358" height="213" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1587578113046" />
+    <state width="1358" height="213" key="GridCell.Tab.0.center" timestamp="1587578113045">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587577291912" />
-    <state width="1358" height="213" key="GridCell.Tab.0.left" timestamp="1587577291906">
+    <state width="1358" height="213" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1587578113045" />
+    <state width="1358" height="213" key="GridCell.Tab.0.left" timestamp="1587578113045">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587577291906" />
-    <state width="1358" height="213" key="GridCell.Tab.0.right" timestamp="1587577291914">
+    <state width="1358" height="213" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1587578113045" />
+    <state width="1358" height="213" key="GridCell.Tab.0.right" timestamp="1587578113046">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1358" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587577291914" />
+    <state width="1358" height="213" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1587578113046" />
     <state x="257" y="103" key="Maven.ArtifactSearchDialog" timestamp="1587415677210">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
