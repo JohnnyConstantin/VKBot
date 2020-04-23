@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5d07298-ad28-4a07-8f57-8b09e6fb7c36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/func/vkbot/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +108,7 @@
       <workItem from="1587474357916" duration="2806000" />
       <workItem from="1587586291890" duration="306000" />
       <workItem from="1587587148483" duration="213000" />
+      <workItem from="1587667232022" duration="631000" />
     </task>
     <servers />
   </component>
